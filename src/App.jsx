@@ -4,7 +4,7 @@
  project data, meaning that even if the user refreshes the page, their data remains intact.*/
 
  import React, { useState, useEffect } from 'react';
- import { BrowserRouter as Router, Route, Routes, Link, useNavigate, useParams } from 'react-router-dom';
+ import { HashRouter as Router, Route, Routes, Link, useNavigate, useParams } from 'react-router-dom';
  import './App.css';
  
  // Retrieve projects from localStorage
